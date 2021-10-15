@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<annotation><data-filename>5.jpg</data-filename><data-type>image</data-type><data-annotaion><bounding-box><classification_label>right eye</classification_label><point2D>36,58</point2D><h>28</h><w>28</w></bounding-box></data-annotaion></annotation>

@@ -1,0 +1,157 @@
+/* body {
+    margin: 0;
+    font: 16px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #181b2a;
+}
+
+button:focus {
+    outline:0;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+svg {
+    color: #000;
+    background: #fff;
+} */
+
+/* Classes */
+
+/* .btn {
+    width: 116px;
+    background: #181b2a;
+    font: 14px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    color: #30a8bc;
+    margin-bottom: 10px;
+    padding: 10px 35px;
+    border: 0 none;
+    border: 2px solid #30a8bc;
+    border-radius: 30px;
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-appearance: none;
+} */
+
+/* a[class="btn"] {
+    width: 42px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    border: 2px solid #39cce5;
+    color: #39cce5;
+}
+
+.btn:active {
+    color: #181b2a;
+    background: #30a8bc;
+    border: 2px solid #30a8bc;
+}
+
+.btn.active {
+    color: #181b2a;
+    background: #30a8bc;
+    border: 2px solid #30a8bc;
+}
+
+.img {
+    object-fit: contain;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    width: 100%;
+}
+
+.actions {
+    padding: 0 10px;
+} */
+
+.color-picker {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.color-picker button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.color-picker button.active {
+    border: 1px solid #fff;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.orange {
+    background-color: orange;
+}
+.black {
+    background-color: black;
+}
+.yellow {
+    background-color: yellow;
+}
+
+/* SVG objects */
+
+.circle {
+    fill: red;
+    stroke: white;
+}
+
+.circle:hover {
+    fill: green;
+    stroke: white;
+}
+
+polygon {
+    stroke: #fff;
+    position: relative;
+}
+
+line {
+    stroke: #777;
+}
+
+/* Helpers */
+/* 
+.mt-1 {
+    margin-top: 10px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.d-none {
+    display: none;
+}
+
+/* Label selection */
+/* 
+.selection select {
+    overflow: hidden;
+} */ 
